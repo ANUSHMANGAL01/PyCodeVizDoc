@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>AC<sup>2</sup>: Towards Understanding Architectural Changes in Python Projects</title>
+    <title>PyCodeViz: An Interactive Visualization Tool to Improve Program Comprehension</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,7 @@
                     <h1 class="logo">
                         <a href="index.html">
 <!--                             <span aria-hidden="true" class="icon_documents_alt icon"></span> -->
-                            <span class="text-highlight">AC<sup>2</sup> </span><span class="text-bold">Docs</span>
+                            <span class="text-highlight">PyCodeViz </span>
                         </a>
                     </h1>
                     
@@ -60,17 +60,13 @@
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
                             <section id="download-section" class="doc-section">'
-                                <h1 class="section-title">AC<sup>2</sup>: Towards Understanding Architectural Changes in Python Projects</h1>
+                                <h1 class="section-title">PyCodeViz: An Interactive Visualization Tool to Improve Program Comprehension</h1>
                                 <br>
                                 <h3 class="block-title">Tool Description</h3>
                                 <div class="section-block">
-                                    <p> AC<sup>2</sup> is used to comprehend the architecture changes in a software system over multiple releases for python projects. Many open source repositories have faster release cycles. 
-                                        More releases in less time leads to frequent changes 
-                                        in the system. Understanding the impact of these regular 
-                                        changes in the term of architecture is important as it will 
-                                        decide the system stability. Therefore comprehending architectural 
-                                        changes visually allows the user to get a better understanding 
-                                        of the growing complexity of their software. 
+                                    <p> PyCodeViz is an extension of Python Tutor with improved visualization exhibiting granular changes in constructs such as 
+					    iterative, conditional, and recursive statements for Python. It helps the user to keep track of changing variables which makes the 
+					    code easy to debug and understand.
 
                                     </p>
                                     <!-- <a href="https://github.com/rishitha957/ADepD/archive/main.zip" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download Tool Zip</a> -->
@@ -83,22 +79,25 @@
                                     <div class="code-block">
                                         
                                         <p>Clone or download this github repository:</p>
-                                        <p><code>git clone https://github.com/dheerajrox/AC2.git</code></p>
-                                        <p>Get into the main directory:</p>
-                                        <p><code>cd AC2/src/main</code></p>
-                                        <p>Install the requirements:</p>
-                                        <p><code>pip install -r requirements.txt</code></p>
+                                        <p><code>git clone https://github.com/ANUSHMANGAL01/PyCodeViz.git</code></p>
+					<p>Install the requirements:</p>
+                                        <p><code>pip install bottle</code></p>
+                                        <p>Get into the v5-unity directory:</p>
+                                        <p><code>cd PyCodeViz/v5-unity</code></p>
+                                        
                                         <p>To start the server use the following command:</p>
-                                        <p><code>python main.py</code></p>
-                                        <p>Then, open your browser to 'http://localhost:5000/'</p>
+                                        <p><code>bottle_server.py</code></p>
+                                        <p>Then, open your browser to 'http://localhost:8000/visualize.html'</p>
                                         
                                     </div><!--//code-block-->
                                 </div><!--//section-block-->
                             </section><!--//doc-section-->
                             <section id="icons-section" class="doc-section">
-                                <h2 class="section-title">Approach diagram</h2>
+                                <h2 class="section-title">Architecture diagram</h2>
                                 <div class="section-block">
-                                    <p>AC2 uses call and collaboration graphs to represent architecture as a structure consisting of different components, and their interactions. It compares the changes in the architecture between different versions by visualizing it in a modular, hierarchical, and in an interactive manner.</p>
+                                    <p>PyCodeViz has an Execution Visualizer at the front-end. 
+					    The Execution Visualiser handles the front-end's four main sections: the Navigation Controller, the Data Visualiser, 
+					    the Code Display Box, and the Output Box. The Data Visualiser section has four sections: Classes and Functions renderer to display the classes and functions, Stack renderer to display function calls and global frame, Heap renderer to display complex data types like lists, maps and tuples and the Flow structures renderer to render loops and if conditions </p>
                                 </div><!--//section-block-->
                                 <div class="section-block">
                                     <img class="img-fluid" src="assets/images/demo/ac2_arch.png" alt="elegant icons" />
