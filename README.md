@@ -4,5 +4,5 @@
 
 
 ## Results
-We have evaluated 10 repositories using AC2. For each repository, we have compared its first release with its subsequent releases.
+We have evaluated the tool with 11 undergraduate students. Each of them was given different code snippets to test, try and understand the code. They could also write their own code and check.
 [Results](https://github.com/dheerajrox/AC2doc/tree/main/Results)
