@@ -5,4 +5,4 @@
 
 ## Results
 We have evaluated the tool with 11 undergraduate students. Each of them was given different code snippets to test, try and understand the code. They could also write their own code and check.
-[Results](https://github.com/ANUSHMANGAL01/PyCodeVizDoc/tree/main/Results)
+[Results](https://github.com/rishalab/PyCodeViz/tree/main/Results)
